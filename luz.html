@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>aula javascript lampada</title>
+  </head>
+  <script>
+var quebrado =false;
+  function acendeLampada(){
+    if (!quebrado){
+    document.getElementById('luz').src="_imagens/lampada-acesa.jpg";
+      }
+  }
+  function apagarLampada(){
+    if (!quebrado){
+    document.getElementById('luz').src="_imagens/lampada-apagada.jpg";
+
+    }
+  }
+  function quebraLampada(){
+    document.getElementById('luz').src="_imagens/lampada-quebrada.jpg";
+      quebrado = true;
+  }
+  </script>
+
+  <body>
+  <h1> acenda a lampada</h1>
+<img id="luz" src="_imagens/lampada-apagada.jpg" onmousemove="acendeLampada()" onmouseout="apagarLampada()"  onclick="quebraLampada()" />
+
+
+  </body>
+</html>

@@ -1,0 +1,134 @@
+@charset "UTF-8";
+body{
+    display: block;
+    margin: 8px;
+    background-repeat: no-repeat;
+;
+}
+table {
+  border: 1px solid black;
+  border-spacing: 0px;
+  background-color:white;
+  color: black;
+  font-size: 18pt;
+border-right-color: red;
+border-left-color: red;
+
+
+}
+
+table td {
+  border: 1px solid black;
+  padding: 5px;
+
+}
+table td.titulo {
+  background-color: red;
+}
+#menu ul {
+	padding:0px;
+	margin:0px;
+	background-color:#EDEDED;
+	list-style:none;
+}
+#menu ul li { display: inline;
+ }
+#menu ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+
+
+	background-color:#EDEDED;
+	color: #333;
+	text-decoration: none;
+	border-bottom:3px solid #EDEDED;
+}
+#menu ul li a:hover {
+	background-color:#D6D6D6;
+	color: #6D6D6D;
+	border-bottom:3px solid #EA0000;
+}
+
+div#interface {
+    width: 1000px;
+    height: 1000px;
+    overflow: scroll;
+
+}
+div#interface2 {
+    width:1000px;
+    height: 1000px;
+    overflow: scroll;
+  list-style: none;
+background-color: rgb(0,0,255); opacity: 0.9;
+}
+div#int {
+    width:1000px;
+    height: 1000px;
+    overflow: scroll;
+  list-style: none;
+  opacity: 200%
+}
+div#int {
+  display: block;
+  width: 1000px;
+  padding: 20px;
+  margin: 20px auto 20px auto;
+  background-color:#F5F8F8
+
+}
+#int ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+
+	background-color:#EDEDED;
+
+	text-decoration: none;
+	border-bottom:5px solid #EDEDED;
+}
+#int ul li { display: inline;
+ }
+div#interface {
+  display: block;
+  width: 1000px;
+  padding: 15px;
+  margin: 20px auto 20px auto;
+  background-color:#F5F8F8
+
+
+}
+#int ul li a:hover {
+	background-color:#D6D6D6;
+	color: #6D6D6D;
+	border-bottom:3px solid #EA0000;
+}
+div#interface2 {
+  display: block;
+  width: 1000px;
+  padding: 15px;
+  margin: 20px auto 20px auto;
+  background-color:#F5F8F8
+
+}
+div#interface3 {
+    width: 1000px;
+    height: 1000px;
+    overflow: scroll;
+
+}
+div#interface3 {
+  display: block;
+  width: 1000px;
+  padding: 15px;
+  margin: 20px auto 20px auto;
+  background-color:#F5F8F8
+
+}
+#content li{
+
+}
+
+
+
+
+#mw-content-text > dl:nth-child(14)
