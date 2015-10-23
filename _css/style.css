@@ -127,8 +127,25 @@ div#interface3 {
 #content li{
 
 }
-
-
+#content > li:nth-child(9) > a
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: none;
+    cursor: auto;
+}
 
 
 #mw-content-text > dl:nth-child(14)
+
+<style type="text/css">
+a:link
+{
+ text-decoration:none;
+}
+</style>
+<style type="text/css">
+a.nounderline:link
+{
+ text-decoration:none;
+}
+</style>
